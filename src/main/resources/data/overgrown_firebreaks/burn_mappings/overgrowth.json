@@ -1,0 +1,132 @@
+{
+  "mappings": [
+    {
+      "from": "overgrown_vegetation:overgrown_grass_block",
+      "to": "burnt:smoldering_grass"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_dirt",
+      "to": "burnt:burnt_dirt"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_mud",
+      "to": "burnt:burnt_dirt"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_log",
+      "to": "burnt:smoldering_log"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_swamp_log",
+      "to": "burnt:smoldering_log"
+    },
+    {
+      "from": "overgrown_vegetation:giant_overgrown_log",
+      "to": "burnt:smoldering_log"
+    },
+    {
+      "from": "overgrown_vegetation:hardened_giant_trunk",
+      "to": "burnt:smoldering_dark_oak_log"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_wood",
+      "to": "burnt:smoldering_wood"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_swamp_wood",
+      "to": "burnt:smoldering_wood"
+    },
+    {
+      "from": "overgrown_vegetation:giant_overgrown_cambium",
+      "to": "burnt:smoldering_wood"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_leaves",
+      "to": "burnt:smoldering_leaves"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_swamp_leaves",
+      "to": "burnt:smoldering_leaves"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_planks",
+      "to": "burnt:smoldering_planks"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_stairs",
+      "to": "burnt:smoldering_stairs"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_fence",
+      "to": "burnt:smoldering_fence"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_door",
+      "to": "burnt:smoldering_door"
+    },
+    {
+      "from": "overgrown_vegetation:glowing_mycelium",
+      "to": "burnt:smoldering_moss"
+    },
+    {
+      "from": "overgrown_vegetation:fungal_cap",
+      "to": "burnt:smoldering_moss"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_moss_layer",
+      "to": "burnt:smoldering_moss_carpet"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_drip_moss",
+      "to": "burnt:smoldering_moss_carpet"
+    },
+    {
+      "from": "overgrown_vegetation:cave_moss_clump",
+      "to": "burnt:smoldering_moss_carpet"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_curled_fern",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_zenmai",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_sapling",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:giant_overgrown_sapling",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_spore_bloom",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:undeveloped_bush",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_bush",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_lily",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_growth",
+      "to": "burnt:smoldering_fern"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_tall_fern",
+      "to": "burnt:smoldering_high_grass"
+    },
+    {
+      "from": "overgrown_vegetation:overgrown_spore_reed",
+      "to": "burnt:smoldering_high_grass"
+    }
+  ]
+}

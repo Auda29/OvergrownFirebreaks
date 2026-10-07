@@ -1,0 +1,30 @@
+name: Build addon packages
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build and verify distributable packages
+        run: python tests/verify_packages.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: overgrown-firebreaks-${{ matrix.os }}
+          path: dist/*
+          if-no-files-found: error

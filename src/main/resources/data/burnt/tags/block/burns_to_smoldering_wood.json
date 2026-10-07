@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "overgrown_vegetation:overgrown_wood",
+    "overgrown_vegetation:overgrown_swamp_wood",
+    "overgrown_vegetation:giant_overgrown_cambium"
+  ]
+}

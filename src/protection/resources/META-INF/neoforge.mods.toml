@@ -1,0 +1,57 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Auda29/OvergrownFirebreaks/issues"
+showAsDataPack = false
+
+[[mods]]
+modId = "overgrown_firebreaks_protection"
+version = "0.1.0-alpha.1"
+displayName = "Overgrown Firebreaks: Protection"
+authors = "Overgrown Firebreaks contributors"
+displayURL = "https://github.com/Auda29/OvergrownFirebreaks"
+credits = "Burnt by Pixelbank; Overgrown Vegetation by yayuy. Independent unofficial addon."
+description = '''Optional balance module: protects 336 Burnt remnants, including burnt building materials, from Overgrown block corruption. Does not suppress spores, biome corruption or infection sources.'''
+
+[[dependencies.overgrown_firebreaks_protection]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.150,21.2)"
+ordering = "NONE"
+side = "BOTH"
+reason = "NeoForge for Minecraft 1.21.1"
+
+[[dependencies.overgrown_firebreaks_protection]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+reason = "This alpha supports only Minecraft 1.21.1"
+
+[[dependencies.overgrown_firebreaks_protection]]
+modId = "burnt"
+type = "required"
+versionRange = "[1.10.5.2]"
+ordering = "AFTER"
+side = "BOTH"
+reason = "Install Burnt Basic 1.10.5.2"
+
+[[dependencies.overgrown_firebreaks_protection]]
+modId = "overgrown_vegetation"
+type = "required"
+versionRange = "[0.1.2]"
+ordering = "AFTER"
+side = "BOTH"
+reason = "Install Overgrown Vegetation 0.1.2 by yayuy_0227"
+
+[[dependencies.overgrown_firebreaks_protection]]
+modId = "overgrown_firebreaks"
+type = "required"
+versionRange = "[0.1.0-alpha.1]"
+ordering = "AFTER"
+side = "BOTH"
+reason = "Install the matching Overgrown Firebreaks core addon"
+
+[features.overgrown_firebreaks_protection]
+javaVersion = "[21,)"

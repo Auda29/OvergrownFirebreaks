@@ -1,0 +1,49 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Auda29/OvergrownFirebreaks/issues"
+showAsDataPack = false
+
+[[mods]]
+modId = "overgrown_firebreaks"
+version = "0.1.0-alpha.1"
+displayName = "Overgrown Firebreaks"
+authors = "Overgrown Firebreaks contributors"
+displayURL = "https://github.com/Auda29/OvergrownFirebreaks"
+credits = "Burnt by Pixelbank; Overgrown Vegetation by yayuy. Independent unofficial addon."
+description = '''Makes 45 Overgrown Vegetation blocks respond to Burnt fire. Install the optional Protection module to protect charred ground. Requires Burnt 1.10.5.2 and Overgrown Vegetation 0.1.2 by yayuy.'''
+
+[[dependencies.overgrown_firebreaks]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.150,21.2)"
+ordering = "NONE"
+side = "BOTH"
+reason = "NeoForge for Minecraft 1.21.1"
+
+[[dependencies.overgrown_firebreaks]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+reason = "This alpha supports only Minecraft 1.21.1"
+
+[[dependencies.overgrown_firebreaks]]
+modId = "burnt"
+type = "required"
+versionRange = "[1.10.5.2]"
+ordering = "AFTER"
+side = "BOTH"
+reason = "Install Burnt Basic 1.10.5.2"
+
+[[dependencies.overgrown_firebreaks]]
+modId = "overgrown_vegetation"
+type = "required"
+versionRange = "[0.1.2]"
+ordering = "AFTER"
+side = "BOTH"
+reason = "Install Overgrown Vegetation 0.1.2 by yayuy_0227"
+
+[features.overgrown_firebreaks]
+javaVersion = "[21,)"

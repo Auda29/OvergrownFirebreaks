@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "overgrown_vegetation:overgrown_curled_fern",
+    "overgrown_vegetation:overgrown_zenmai",
+    "overgrown_vegetation:overgrown_sapling",
+    "overgrown_vegetation:giant_overgrown_sapling",
+    "overgrown_vegetation:overgrown_spore_bloom",
+    "overgrown_vegetation:undeveloped_bush",
+    "overgrown_vegetation:overgrown_bush",
+    "overgrown_vegetation:overgrown_lily",
+    "overgrown_vegetation:overgrown_growth"
+  ]
+}
